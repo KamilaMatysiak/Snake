@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;500;600&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background: rgb(31, 26, 26);
+}
+
+h1,p {
+    text-align: center;
+    color: white;
+}
+
+#snakeboard {
+    margin: 10px;
+    border: 1px solid rgb(199, 58, 58);
+    border-radius: 8px;
+    box-shadow: 0 0 4px rgb(199, 58, 58);
+}
+
+.container {
+    margin: 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.button {
+    border-radius: 8px;
+    background: rgb(199, 58, 58);
+    color: white;
+    font-weight: 600;
+    padding: 15px 40px;
+    margin: 20px;
+    border: none;
+    cursor: pointer;
+}
